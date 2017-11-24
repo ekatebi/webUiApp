@@ -1,0 +1,11 @@
+export const NOOP = 'AUTH_NOOP';
+export const SIGNIN = 'AUTH_SIGNIN';
+export const SIGNOUT = 'AUTH_SIGNOUT';
+export const HIDE_MODAL = 'AUTH_HIDE_MODAL';
+export const REQUEST_TOKEN = 'AUTH_REQUEST_TOKEN';
+export const RECEIVE_TOKEN = 'AUTH_RECEIVE_TOKEN';
+export const RECEIVE_ERROR = 'AUTH_RECEIVE_ERROR';
+export const RECEIVE_INFO = 'AUTH_RECEIVE_INFO';
+export const LOGIN = 'AUTH_LOGIN';
+export const USER_PW_CHANGE = 'AUTH_USER_PW_CHANGE';
+export const certMsg = 'your approval is required for web certificate. After clicking on OK, on adjacent browser tab, click on \"ADVANCED\" then \"proceed to ...\". Then come back to this tab and login again.';

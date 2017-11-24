@@ -1,0 +1,82 @@
+.tree-view {
+
+  display: -webkit-flex;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column nowrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+
+  border-width: 2;
+  border-color: blue;
+//  border-style: solid;
+}
+
+.tree-view_item {
+  /* immediate child of .tree-view, for styling convenience */
+  display: -webkit-flex;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row nowrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+
+  border-width: 2;
+  border-color: pink;
+//  border-style: solid;
+}
+
+/* style for the children nodes container */
+.tree-view_children {
+  margin-left: 16px;
+
+  display: -webkit-flex;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row nowrap;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+
+  border-width: 2;
+  border-color: lightgreen;
+//  border-style: solid;
+}
+
+.tree-view_children-collapsed {
+  height: 0px;
+}
+
+.node {
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  border-radius: 3px;
+}
+
+.node:hover {
+  background-color: rgb(220, 245, 243);
+  cursor: pointer;
+}
+
+.info, .node {
+  padding: 2px 10px 2px 5px;
+  font: 14px Helvetica, Arial, sans-serif;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tree-view_arrow {
+  -moz-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  -ms-transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+.tree-view_arrow-empty {
+  color: yellow;
+}

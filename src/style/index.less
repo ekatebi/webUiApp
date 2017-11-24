@@ -1,0 +1,97 @@
+html {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column wrap;
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+body {
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column wrap;
+    -webkit-flex: 1;
+    flex: 1;
+    margin: 0;
+    min-height: 100%;
+    overflow: hidden;
+
+// @import 'auth';
+
+  @modules: '../../node_modules';
+  @import "@{modules}/bootstrap/less/normalize.less";
+  @import "@{modules}/font-awesome/less/font-awesome.less";
+  @import "@{modules}/flexboxgrid-less/flexboxgrid.less";
+  @import "@{modules}/react-select/less/select.less";
+  @import "@{modules}/react-treeview/react-treeview.css";
+//  @import "@{modules}/video.js/dist/video-js.min.css";
+
+  @import 'splitPane';
+  @import 'react-contextmenu';
+  @import 'sub-menu';
+
+  @import 'app';
+  @import 'appList';
+  @import 'appFilter';
+  @import 'item';
+  @import 'react-tabs';
+  @import 'react-treeview';
+  @import 'popover';
+//  @import 'epg';
+
+  .nonDraggableImage{
+    -webkit-user-drag: none;
+  }
+
+  .panel-group{
+    margin-bottom: 5px
+  }
+
+  .panel-heading{
+      height: 30px;
+      padding: 4px 10px;
+  }
+
+  .panel-heading-sm{
+      height: 28px;
+      padding: 4px 10px;
+  }
+
+  .panel-body-sm{
+     padding: 5px 10px;
+  }
+
+  .panel-body {
+     padding: 8px;
+  }
+
+  .loadedContent {
+    display: flex;
+    flex: 1;
+    alignContent: flex-start;
+  }
+
+  .treeviewContainer {
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 0 auto;
+    flex-flow: column wrap;
+//    -webkit-justify-content: space-around;
+//    justify-content: space-around;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start;
+//    width: 90%;
+//    height: 80%;
+//    margin: auto;
+    margin-left: 5px;
+//    overflow: auto;
+
+//    border-width: 2;
+//    border-color: green;
+//    border-style: solid;
+  }
+
+}

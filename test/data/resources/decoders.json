@@ -1,0 +1,274 @@
+{
+  "decoders": [
+    {
+      "gen": {
+        "mac": "0:1e:c0:f6:54:33",
+        "type": "decoder",
+        "name": "0:1e:c0:f6:54:33",
+        "mode": "enabled",
+        "lastChangeId": "148",
+        "firmware": "2.8.6"
+      },
+      "ip": {
+        "mode": "dhcp",
+        "address": "172.16.20.32",
+        "mask": "255.255.255.0",
+        "gateway": "172.16.20.1"
+      },
+      "rs232": {
+        "sendingToMacOrIp": "none(0.0.0.0)",
+        "terminationChars": "\\n\\r",
+        "baudrate": "57600",
+        "dataBit": "8",
+        "stop_Bit": "1",
+        "parity": "none"
+      },
+      "ir": {
+        "sendingToMacOrIp": "none(0.0.0.0)"
+      },
+      "display": {
+        "iconImageName": "GenericDisplay",
+        "manufacturer": "Unknown",
+        "model": "Unknown",
+        "location": "Unknown",
+        "serialNumber": "Unknown"
+      },
+      "connectedEncoder": {
+        "macAddr": "none",
+        "connectionMode": "disconnected"
+      },
+      "analogAudio": {
+        "sourceMac": "none",
+        "sourceType": "analog"
+      },
+      "hdmiAudio": {
+        "sourceType": "hdmi"
+      }
+    },
+    {
+      "gen": {
+        "mac": "0:1e:c0:f6:87:f4",
+        "type": "decoder",
+        "name": "0:1e:c0:f6:87:f4",
+        "mode": "enabled",
+        "lastChangeId": "176",
+        "firmware": "2.8.7"
+      },
+      "ip": {
+        "mode": "dhcp",
+        "address": "172.16.20.186",
+        "mask": "255.255.255.0",
+        "gateway": "172.16.20.1"
+      },
+      "rs232": {
+        "sendingToMacOrIp": "none(0.0.0.0)",
+        "terminationChars": "\\n\\r",
+        "baudrate": "57600",
+        "dataBit": "8",
+        "stop_Bit": "1",
+        "parity": "none"
+      },
+      "ir": {
+        "sendingToMacOrIp": "none(0.0.0.0)"
+      },
+      "display": {
+        "iconImageName": "GenericDisplay",
+        "manufacturer": "Unknown",
+        "model": "Unknown",
+        "location": "Unknown",
+        "serialNumber": "Unknown"
+      },
+      "connectedEncoder": {
+        "macAddr": "none",
+        "connectionMode": "disconnected"
+      },
+      "analogAudio": {
+        "sourceMac": "none",
+        "sourceType": "analog"
+      },
+      "hdmiAudio": {
+        "sourceType": "hdmi"
+      }
+    },
+    {
+      "gen": {
+        "mac": "0:1e:c0:f6:a6:ab",
+        "type": "decoder",
+        "name": "jag-dec",
+        "mode": "enabled",
+        "lastChangeId": "168",
+        "firmware": "2.8.6"
+      },
+      "ip": {
+        "mode": "dhcp",
+        "address": "172.16.20.4",
+        "mask": "255.255.255.0",
+        "gateway": "172.16.20.1"
+      },
+      "rs232": {
+        "sendingToMacOrIp": "none(0.0.0.0)",
+        "terminationChars": "\\n\\r",
+        "baudrate": "57600",
+        "dataBit": "8",
+        "stop_Bit": "1",
+        "parity": "none"
+      },
+      "ir": {
+        "sendingToMacOrIp": "none(0.0.0.0)"
+      },
+      "display": {
+        "iconImageName": "GenericDisplay",
+        "manufacturer": "Unknown",
+        "model": "Unknown",
+        "location": "Unknown",
+        "serialNumber": "Unknown"
+      },
+      "connectedEncoder": {
+        "macAddr": "0:1e:c0:f6:de:eb",
+        "connectionMode": "fast-switched"
+      },
+      "analogAudio": {
+        "sourceMac": "none",
+        "sourceType": "analog"
+      },
+      "hdmiAudio": {
+        "sourceType": "hdmi"
+      }
+    },
+    {
+      "gen": {
+        "mac": "ff:0:0:0:22:11",
+        "type": "decoder",
+        "name": "ff:0:0:0:22:11",
+        "mode": "enabled",
+        "lastChangeId": "16",
+        "firmware": "99.99.99"
+      },
+      "ip": {
+        "mode": "dhcp",
+        "address": "172.17.3.17",
+        "mask": "255.255.255.0",
+        "gateway": "172.16.2.2"
+      },
+      "rs232": {
+        "sendingToMacOrIp": "none(0.0.0.0)",
+        "terminationChars": "\\n\\r",
+        "baudrate": "57600",
+        "dataBit": "8",
+        "stop_Bit": "1",
+        "parity": "none"
+      },
+      "ir": {
+        "sendingToMacOrIp": "none(0.0.0.0)"
+      },
+      "display": {
+        "iconImageName": "GenericDisplay",
+        "manufacturer": "Unknown",
+        "model": "Unknown",
+        "location": "Unknown",
+        "serialNumber": "Unknown"
+      },
+      "connectedEncoder": {
+        "macAddr": "none",
+        "connectionMode": "disconnected"
+      },
+      "analogAudio": {
+        "sourceMac": "none",
+        "sourceType": "analog"
+      },
+      "hdmiAudio": {
+        "sourceType": "hdmi"
+      }
+    },
+    {
+      "gen": {
+        "mac": "ff:0:0:0:22:12",
+        "type": "decoder",
+        "name": "ff:0:0:0:22:12",
+        "mode": "enabled",
+        "lastChangeId": "17",
+        "firmware": "99.99.99"
+      },
+      "ip": {
+        "mode": "dhcp",
+        "address": "172.17.3.18",
+        "mask": "255.255.255.0",
+        "gateway": "172.16.2.2"
+      },
+      "rs232": {
+        "sendingToMacOrIp": "none(0.0.0.0)",
+        "terminationChars": "\\n\\r",
+        "baudrate": "57600",
+        "dataBit": "8",
+        "stop_Bit": "1",
+        "parity": "none"
+      },
+      "ir": {
+        "sendingToMacOrIp": "none(0.0.0.0)"
+      },
+      "display": {
+        "iconImageName": "GenericDisplay",
+        "manufacturer": "Unknown",
+        "model": "Unknown",
+        "location": "Unknown",
+        "serialNumber": "Unknown"
+      },
+      "connectedEncoder": {
+        "macAddr": "none",
+        "connectionMode": "disconnected"
+      },
+      "analogAudio": {
+        "sourceMac": "none",
+        "sourceType": "analog"
+      },
+      "hdmiAudio": {
+        "sourceType": "hdmi"
+      }
+    },
+    {
+      "gen": {
+        "mac": "ff:0:0:0:22:13",
+        "type": "decoder",
+        "name": "ff:0:0:0:22:13",
+        "mode": "enabled",
+        "lastChangeId": "171",
+        "firmware": "99.99.99"
+      },
+      "ip": {
+        "mode": "dhcp",
+        "address": "172.17.3.19",
+        "mask": "255.255.255.0",
+        "gateway": "172.16.2.2"
+      },
+      "rs232": {
+        "sendingToMacOrIp": "none(0.0.0.0)",
+        "terminationChars": "\\n\\r",
+        "baudrate": "57600",
+        "dataBit": "8",
+        "stop_Bit": "1",
+        "parity": "none"
+      },
+      "ir": {
+        "sendingToMacOrIp": "none(0.0.0.0)"
+      },
+      "display": {
+        "iconImageName": "GenericDisplay",
+        "manufacturer": "Unknown",
+        "model": "Unknown",
+        "location": "Unknown",
+        "serialNumber": "Unknown"
+      },
+      "connectedEncoder": {
+        "macAddr": "none",
+        "connectionMode": "disconnected"
+      },
+      "analogAudio": {
+        "sourceMac": "none",
+        "sourceType": "analog"
+      },
+      "hdmiAudio": {
+        "sourceType": "hdmi"
+      }
+    }
+  ]
+}

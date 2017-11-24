@@ -1,0 +1,12 @@
+const prefix = 'LOG__';
+export const SET_MAX_COUNT = `${prefix}SET_MAX_COUNT`;
+export const SPINNER = `${prefix}SPINNER`;
+export const ADD_LOG = `${prefix}ADD_LOG`;
+export const RESET_SCOREBOARD = `${prefix}RESET_SCOREBOARD`;
+export const CAPTURE_SCOREBOARD_COUNT = `${prefix}CAPTURE_SCOREBOARD_COUNT`;
+export const SET_COUNT_ERROR = `${prefix}SET_COUNT_ERROR`;
+export const SET_COUNT_SUCCESS = `${prefix}SET_COUNT_SUCCESS`;
+export const SET_COUNT_INFO = `${prefix}SET_COUNT_INFO`;
+export const RECEIVE_STORAGE = `${prefix}RECEIVE_STORAGE`;
+export const RECEIVE_LIST = `${prefix}RECEIVE_LIST`;
+export const SHOW_SETTINGS = `${prefix}SHOW_SETTINGS`;
