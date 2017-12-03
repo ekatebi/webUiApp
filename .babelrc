@@ -1,0 +1,14 @@
+{
+  "presets": ["es2015", "react", "stage-0", "latest", ["babili", {
+    "evaluate": true,
+    "mangle": true
+  }]],
+  "plugins": ["lodash", "transform-undefined-to-void", 
+    "transform-decorators-legacy", "transform-async-to-generator",
+     ["transform-class-properties", { "spec": true }] ],
+  "env": {
+    "development": {
+     "presets": ["react-hmre"]
+   }
+  }
+}
